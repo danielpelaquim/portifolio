@@ -308,3 +308,10 @@ Adicionar uma entrada por etapa executada:
 - Solicitação: remover o projeto Classificador de imagens do portfólio.
 - Implementação: excluído `src/content/projects/classificador-imagens.project.md`; os três projetos restantes não foram alterados.
 - Verificação: `npm run build` passou.
+
+### 2026-10-25 — Texto da seção Habilidades técnicas
+
+- Solicitação: substituir o aviso provisório nas traduções existentes, sem alterar habilidades ou outras seções.
+- Implementação: texto em PT: “Tecnologias relacionadas a desenvolvimento de software, engenharia e inteligência artificial.” Texto em EN: “Technologies related to software development, engineering, and artificial intelligence.”
+- Arquivos: `src/content/translations.ts`; esta atualização de continuidade.
+- Verificação: `npm run build` passou. Build de produção e atualização em `gh-pages` pendentes.

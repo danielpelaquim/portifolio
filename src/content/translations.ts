@@ -87,7 +87,7 @@ export const translations: Record<Language, Translation> = {
     },
     skillsEmpty: 'Ainda não há habilidades nesta categoria.',
     skillsReviewNotice:
-      'Sugestões populares para revisão: confirme suas habilidades e remova o que não se aplica antes de publicar. Esta lista não indica níveis de proficiência.',
+      'Tecnologias relacionadas a desenvolvimento de software, engenharia e inteligência artificial.',
     projectsEmpty: 'Ainda não há projetos confirmados para apresentar nesta seção.',
     projectRepository: 'Código-fonte',
     projectDemo: 'Demonstração',
@@ -175,7 +175,7 @@ export const translations: Record<Language, Translation> = {
     },
     skillsEmpty: 'There are no skills listed in this category yet.',
     skillsReviewNotice:
-      'Popular suggestions for review: confirm your skills and remove anything that does not apply before publishing. This list does not indicate proficiency levels.',
+      'Technologies related to software development, engineering, and artificial intelligence.',
     projectsEmpty: 'There are no confirmed projects to show in this section yet.',
     projectRepository: 'Source code',
     projectDemo: 'Live demo',
