@@ -321,4 +321,4 @@ Adicionar uma entrada por etapa executada:
 - Solicitação: substituir a descrição da seção, sem alterar a lista de habilidades, o aviso abaixo dela ou outras seções.
 - Implementação: PT “Tecnologias e ferramentas organizadas por área de conhecimento.”; EN “Technologies and tools organized by area of knowledge.”
 - Arquivo de aplicação alterado: `src/content/translations.ts`. Atualização de continuidade: `docs/HANDOFF.md` e este registro.
-- Verificação: `npm run build` passou. Teste do texto no site publicado e deploy pendentes.
+- Verificação: `npm run build` passou. Código enviado para `main` (commit `4b2f3e0`) e build para `gh-pages` (commit `1825856`). O workflow de Pages está em execução; a URL ainda serve a versão anterior e o teste do texto publicado está pendente.
