@@ -160,7 +160,7 @@
 
 ## Etapa 8 — GitHub Pages
 
-**Status: EM ANDAMENTO**
+**Status: CONCLUÍDA**
 
 ### Tarefas
 - [x] Confirmar o repositório `danielpelaquim/portifolio` e a visibilidade pública.
@@ -172,10 +172,10 @@
 - [x] Confirmar o usuário do GitHub e documentar a URL esperada.
 - [x] Enviar o código-fonte para a branch `main`.
 - [x] Enviar a build para a branch `gh-pages`.
-- [ ] Habilitar Pages para a branch `gh-pages` na pasta `/(root)`.
-- [ ] Verificar a URL pública após a publicação.
+- [x] Habilitar Pages para a branch `gh-pages` na pasta `/(root)`.
+- [x] Verificar a URL pública após a publicação.
 
-Os commits `4163585` e `122600d` estão publicados em `main`; a build está na branch `gh-pages` pelo commit `504f180`. Pages ainda não está habilitado: a API e a URL pública retornam 404.
+Os commits de código e documentação estão publicados em `main`; a build está na branch `gh-pages` pelo commit `504f180`. Pages está ativo na raiz dessa branch.
 
 ### Critérios de aceitação
 - Build funciona com o subcaminho `/portifolio/`.
@@ -183,6 +183,15 @@ Os commits `4163585` e `122600d` estão publicados em `main`; a build está na b
 - Instruções de publicação estão claras.
 - Não afirmar que houve deploy até que seja realizado e verificado.
 - Agente entrega relatório final e aguarda aprovação.
+
+### 2026-10-25 — Conclusão da Etapa 8
+
+- Status: CONCLUÍDA.
+- Repositório: `https://github.com/danielpelaquim/portifolio` (público).
+- Código-fonte publicado em `main`; build estática publicada em `gh-pages`, diretório raiz (`/(root)`).
+- GitHub Pages confirmado ativo em `https://danielpelaquim.github.io/portifolio/`.
+- Verificações: URL retornou HTTP 200; favicon, JavaScript e CSS retornaram HTTP 200; HTML referencia assets sob `/portifolio/`; navegação, numeração 01–06 e os três projetos foram confirmados no navegador.
+- Build: `npm run build` passou antes da publicação.
 
 ## Registro de execução
 

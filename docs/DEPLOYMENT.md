@@ -22,3 +22,7 @@ Após a ativação, o endereço esperado é `https://danielpelaquim.github.io/po
 ## Atualizações
 
 Após alterar o site, envie o código para `main` e execute `npm run build`. Em seguida, atualize o conteúdo da raiz de `gh-pages` com o conteúdo recém-gerado de `dist/`, faça commit e push. A publicação não é automática.
+
+## Estado atual
+
+GitHub Pages está configurado para publicar `gh-pages` a partir da raiz. O site foi verificado em 2026-10-25 em `https://danielpelaquim.github.io/portifolio/`; a página e os recursos principais retornaram HTTP 200.
