@@ -1,0 +1,18 @@
+Leia o HANDOFF.md e as instruções relevantes do projeto. Analise o código atual para confirmar o estado real da implementação.
+
+Apresente um resumo do ponto em que paramos, identifique as pendências e recomende o próximo passo.
+
+Não modifique nenhum arquivo até eu autorizar.
+
+
+
+
+------------------
+
+Prepare o projeto para a continuidade em uma nova sessão.
+
+Atualize o HANDOFF.md com o estado real do projeto, registrando o trabalho concluído, as tarefas pendentes, os problemas encontrados, as decisões importantes e os próximos passos.
+
+Atualize o TASKS.md e os demais documentos somente quando necessário.
+
+Verifique o código antes de registrar o estado das tarefas. Informe quais arquivos foram atualizados e o resultado das validações realizadas.
