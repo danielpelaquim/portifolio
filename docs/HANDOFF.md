@@ -40,7 +40,7 @@ Registro desta sessão (2026-10-25):
 - A pedido do usuário, adicionou-se “Classificador de imagens” como projeto em desenvolvimento; posteriormente, a seção de IA foi removida e todos os projetos foram apresentados na seção geral.
 - Em solicitação subsequente, o usuário pediu remover também o projeto “Classificador de imagens”. O arquivo de cadastro foi excluído; os três projetos restantes permanecem na seção única “Projetos”.
 - A pedido do usuário, ajustados via CSS a luminosidade, o contraste, a saturação e o brilho verde da foto de perfil para melhor integração com a estética Matrix. O PNG original foi preservado; build passou e a aparência foi conferida no navegador.
-- A pedido do usuário, substituído o aviso de revisão das habilidades pelo texto descritivo acordado em português e inglês, sem alterar a lista de tecnologias nem outras seções. `npm run build` passou; alteração pronta para publicação.
+- A pedido do usuário, substituído o aviso de revisão das habilidades pelo texto descritivo acordado em português e inglês, sem alterar a lista de tecnologias nem outras seções. `npm run build` passou e a atualização foi publicada em `gh-pages` pelo commit `bd09497`; os dois textos novos foram confirmados no bundle público.
 
 Registro da etapa anterior:
 

@@ -314,4 +314,4 @@ Adicionar uma entrada por etapa executada:
 - Solicitação: substituir o aviso provisório nas traduções existentes, sem alterar habilidades ou outras seções.
 - Implementação: texto em PT: “Tecnologias relacionadas a desenvolvimento de software, engenharia e inteligência artificial.” Texto em EN: “Technologies related to software development, engineering, and artificial intelligence.”
 - Arquivos: `src/content/translations.ts`; esta atualização de continuidade.
-- Verificação: `npm run build` passou. Build de produção e atualização em `gh-pages` pendentes.
+- Verificação: `npm run build` passou. A atualização foi enviada para `main` pelo commit `560683e` e para `gh-pages` pelo commit `bd09497`. URL pública e bundle JavaScript retornaram HTTP 200; bundle contém os textos novos em PT/EN e não contém o aviso antigo.
