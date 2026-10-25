@@ -170,9 +170,11 @@
 - [x] Testar preview local da build.
 - [x] Documentar o fluxo manual para publicar o repositório `portifolio` no GitHub Pages.
 - [x] Confirmar o usuário do GitHub e documentar a URL esperada.
-- [ ] Enviar o código-fonte para a branch `main`.
+- [x] Enviar o código-fonte para a branch `main`.
 - [ ] Enviar a build para a branch `gh-pages` e habilitar Pages.
 - [ ] Verificar a URL pública após a publicação.
+
+O commit `4163585` está publicado em `main` e foi confirmado no GitHub. Falta publicar a build estática em `gh-pages` e verificar o site.
 
 ### Critérios de aceitação
 - Build funciona com o subcaminho `/portifolio/`.

@@ -5,7 +5,7 @@
 - Projeto de portfólio pessoal estático com React, Vite, TypeScript e CSS.
 - A aplicação atualmente apresenta a introdução e seis seções de conteúdo navegáveis (Sobre mim, Habilidades, Projetos, Experiência, Formação e Contato), seletor de idioma PT/EN, navegação inline no desktop e menu hamburger em tablets/celulares.
 - As seções de conteúdo profissional agora apresentam os dados confirmados pelo usuário: biografia, 12 experiências profissionais e quatro formações. Habilidades têm sugestões populares provisórias, identificadas como sugestões para revisão. Projetos incluem Portfólio Matrix, Maravilha Passagens e Arkano, nessa ordem.
-- Conforme `TASKS.md`, as Etapas 0 a 7 estão concluídas, com aprovação explícita das Etapas 4 a 7. A Etapa 8 está sendo finalizada para o repositório público `danielpelaquim/portifolio`; o `base` foi alinhado a `/portifolio/`. O envio e a publicação ainda não foram confirmados.
+- Conforme `TASKS.md`, as Etapas 0 a 7 estão concluídas, com aprovação explícita das Etapas 4 a 7. A Etapa 8 está em andamento para o repositório público `danielpelaquim/portifolio`; o `base` está em `/portifolio/`. O código-fonte foi enviado para `main` no commit `4163585`; a publicação do site ainda não foi realizada.
 - A aplicação tem categorias de habilidades interativas e traduzidas para PT/EN, preenchidas com sugestões populares a pedido do usuário. Elas aparecem identificadas como provisórias e para revisão; devem ser confirmadas/removidas antes da publicação.
 - A Etapa 4 adicionou carregamento estático de arquivos Markdown, validação dos metadados, filtro de rascunhos e cards responsivos. Três projetos estão cadastrados e exibidos na seção única “Projetos”, na ordem definida pelos metadados.
 - As oito seções, navegação por âncoras, atualização do idioma do documento, retorno de foco ao usar Escape, link confirmado do LinkedIn e respeito do fundo Matrix a movimento reduzido/visibilidade foram preservados. No desktop os links aparecem inline; em tablets/celulares, o hamburger abre o menu.
@@ -59,13 +59,13 @@ Registro da sessão anterior (2026-10-24), conforme `TASKS.md`:
 ## 3. Trabalho em andamento
 
 - A Etapa 4 foi aprovada e está concluída. Os cards devem permanecer na ordem: Portfólio Matrix, Maravilha Passagens, Arkano. Links de repositório/demonstração e tecnologias dos projetos ainda não foram informados; não inventar esses dados.
-- As Etapas 5 a 7 estão aprovadas e concluídas. A Etapa 8 está em andamento para o repositório público `danielpelaquim/portifolio`; o `base` está em `/portifolio/`. O usuário autorizou enviar o código e publicar pelo GitHub Pages. Ainda não houve push nem deploy. As habilidades listadas são provisórias e precisam de confirmação ou remoção antes da publicação.
+- As Etapas 5 a 7 estão aprovadas e concluídas. A Etapa 8 está em andamento: o código está em `main`; falta publicar `dist/` em `gh-pages` e habilitar/verificar Pages. O usuário autorizou enviar o código e publicar pelo GitHub Pages. Ainda não houve deploy. As habilidades listadas são provisórias e precisam de confirmação ou remoção antes da publicação.
 - Não há erro técnico conhecido identificado nesta sessão. O conteúdo da Etapa 5 foi fornecido e confirmado pelo usuário; contatos e dados de publicação continuam pendentes.
 
 ## 4. Próximas etapas
 
-1. Enviar o código-fonte para `main` e a build estática para `gh-pages`.
-2. Habilitar Pages na configuração do repositório e verificar `https://danielpelaquim.github.io/portifolio/`.
+1. Enviar as atualizações de continuidade para `main`.
+2. Publicar a build estática em `gh-pages`, habilitar Pages e verificar `https://danielpelaquim.github.io/portifolio/`.
 3. Atualizar o estado da Etapa 8 após confirmar a publicação.
 
 As etapas são sequenciais; cada etapa depende da conclusão e aprovação da etapa anterior.
