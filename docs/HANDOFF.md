@@ -6,7 +6,7 @@
 - A aplicação atualmente apresenta a introdução e seis seções de conteúdo navegáveis (Sobre mim, Habilidades, Projetos, Experiência, Formação e Contato), seletor de idioma PT/EN, navegação inline no desktop e menu hamburger em tablets/celulares.
 - As seções de conteúdo profissional agora apresentam os dados confirmados pelo usuário: biografia, 12 experiências profissionais e quatro formações. Habilidades têm sugestões populares provisórias, identificadas como sugestões para revisão. Projetos incluem Portfólio Matrix, Maravilha Passagens e Arkano, nessa ordem.
 - Conforme `TASKS.md`, as Etapas 0 a 8 estão concluídas. O repositório público `danielpelaquim/portifolio` publica o código em `main` e a build em `gh-pages`; GitHub Pages está ativo em `https://danielpelaquim.github.io/portifolio/`.
-- A aplicação tem categorias de habilidades interativas e traduzidas para PT/EN. A descrição introdutória informa que são tecnologias relacionadas a desenvolvimento de software, engenharia e inteligência artificial.
+- A seção Habilidades técnicas descreve suas categorias como “Tecnologias e ferramentas organizadas por área de conhecimento.”, com versão equivalente em inglês. A lista de habilidades e o aviso explicativo permanecem inalterados.
 - A Etapa 4 adicionou carregamento estático de arquivos Markdown, validação dos metadados, filtro de rascunhos e cards responsivos. Três projetos estão cadastrados e exibidos na seção única “Projetos”, na ordem definida pelos metadados.
 - As seis seções de conteúdo, navegação por âncoras, atualização do idioma do documento, retorno de foco ao usar Escape, link confirmado do LinkedIn e respeito do fundo Matrix a movimento reduzido/visibilidade foram preservados. No desktop os links aparecem inline; em tablets/celulares, o hamburger abre o menu.
 - O build de produção (`npm run build`) passou. O site público e os assets foram verificados com HTTP 200; os projetos são Portfólio Matrix, Maravilha Passagens e Arkano, e os rótulos numerados seguem a sequência 01–06.
@@ -41,6 +41,7 @@ Registro desta sessão (2026-10-25):
 - Em solicitação subsequente, o usuário pediu remover também o projeto “Classificador de imagens”. O arquivo de cadastro foi excluído; os três projetos restantes permanecem na seção única “Projetos”.
 - A pedido do usuário, ajustados via CSS a luminosidade, o contraste, a saturação e o brilho verde da foto de perfil para melhor integração com a estética Matrix. O PNG original foi preservado; build passou e a aparência foi conferida no navegador.
 - A pedido do usuário, substituído o aviso de revisão das habilidades pelo texto descritivo acordado em português e inglês, sem alterar a lista de tecnologias nem outras seções. `npm run build` passou e a atualização foi publicada em `gh-pages` pelo commit `bd09497`; os dois textos novos foram confirmados no bundle público.
+- A pedido do usuário, atualizada somente a descrição da seção Habilidades técnicas em português e inglês para “Tecnologias e ferramentas organizadas por área de conhecimento.” e “Technologies and tools organized by area of knowledge.” A lista de habilidades e o aviso adicional não foram alterados. `npm run build` passou; publicação e verificação no site pendentes.
 
 Registro da etapa anterior:
 

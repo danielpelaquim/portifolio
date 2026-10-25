@@ -104,7 +104,7 @@ export const translations: Record<Language, Translation> = {
         label: 'HABILIDADES',
         title: 'Habilidades técnicas',
         description:
-          'Lista inicial de tecnologias populares para revisão. Confirme o que representa suas habilidades e remova os itens que não se aplicam antes de publicar.',
+          'Tecnologias e ferramentas organizadas por área de conhecimento.',
       },
       {
         id: 'projects',
@@ -192,7 +192,7 @@ export const translations: Record<Language, Translation> = {
         label: 'SKILLS',
         title: 'Technical skills',
         description:
-          'An initial list of popular technologies for review. Confirm which ones represent your skills and remove anything that does not apply before publishing.',
+          'Technologies and tools organized by area of knowledge.',
       },
       {
         id: 'projects',

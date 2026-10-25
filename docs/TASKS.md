@@ -315,3 +315,10 @@ Adicionar uma entrada por etapa executada:
 - Implementação: texto em PT: “Tecnologias relacionadas a desenvolvimento de software, engenharia e inteligência artificial.” Texto em EN: “Technologies related to software development, engineering, and artificial intelligence.”
 - Arquivos: `src/content/translations.ts`; esta atualização de continuidade.
 - Verificação: `npm run build` passou. A atualização foi enviada para `main` pelo commit `560683e` e para `gh-pages` pelo commit `bd09497`. URL pública e bundle JavaScript retornaram HTTP 200; bundle contém os textos novos em PT/EN e não contém o aviso antigo.
+
+### 2026-10-25 — Descrição de Habilidades técnicas
+
+- Solicitação: substituir a descrição da seção, sem alterar a lista de habilidades, o aviso abaixo dela ou outras seções.
+- Implementação: PT “Tecnologias e ferramentas organizadas por área de conhecimento.”; EN “Technologies and tools organized by area of knowledge.”
+- Arquivo de aplicação alterado: `src/content/translations.ts`. Atualização de continuidade: `docs/HANDOFF.md` e este registro.
+- Verificação: `npm run build` passou. Teste do texto no site publicado e deploy pendentes.
